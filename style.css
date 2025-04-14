@@ -41,7 +41,7 @@ a{
   display: flex;  /*To make card flex*/
   gap: 64px; /*To make gap between cards */
   flex-wrap: wrap; 
-  justify-content: /*space-between*/;
+  justify-content: space-between;
 }
 .country-card{
   display: inline-block;
