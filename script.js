@@ -7,7 +7,9 @@ fetch('https://restcountries.com/v3.1/all')
     console.log(country);
     const countryCard= document.createElement('a')
     countryCard.classList.add('country-card')
-    countryCard.href = `/country.html?name=${country.name.common}?`
+    // countryCard.href = `/country.html?name=${country.name.common}?`
+    countryCard.href = `/country.html?name=${encodeURIComponent(country.name.common)}`
+
 
 // const cardImg = document.createElement('img')
 // cardImg.src= 'https://flagcdn.com/de.svg'
