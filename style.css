@@ -1,0 +1,26 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  font-family: Nunito, sans-serif;
+}
+.header-container{
+  box-shadow: 0 4px 4px 4px rgba(0,0, 0, 0.1);
+  padding-inline: 24px;
+  
+}
+.header-content{
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  max-width: 1200px;
+  margin-inline: auto;
+  padding-inline: 24px;
+ 
+  /* background-color: pink; */
+  
+}
+.title{
+  font-weight: 800;
+}
